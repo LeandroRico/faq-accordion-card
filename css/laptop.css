@@ -1,0 +1,46 @@
+main {
+  grid-template-columns: 300px 1fr;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.main-image__mobile {
+  display: none;
+}
+
+.main-image__desktop {
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: -431px -185px;
+}
+
+.main-image__desktop img {
+  position: relative;
+  height: 250px;
+  top: 20%;
+  right: 62px;
+}
+
+.main-image__box {
+  position: relative;
+  display: block;
+  bottom: 58%;
+  right: 48px;
+}
+
+.main-image__box img {
+  animation: boxAnimation 2s infinite alternate ease-in-out;
+  width: 100px;
+}
+
+@keyframes boxAnimation {
+  to {
+    transform: translate(0, -15px);
+  }
+}

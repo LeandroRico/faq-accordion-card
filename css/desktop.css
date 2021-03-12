@@ -1,0 +1,59 @@
+main {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+.main-image__desktop {
+  background-size: 1000px;
+  background-position: -588px -311px;
+}
+
+.main-image__desktop img {
+  height: 380px;
+  top: 12%;
+  right: 90px;
+}
+
+.main-image__box {
+  bottom: 57%;
+  right: 87px;
+}
+
+.main-image__box img {
+  width: 180px;
+}
+
+.faq {
+  justify-self: start;
+  align-self: flex-end;
+}
+
+.faq {
+  grid-column: 2 / 3;
+}
+
+.faq h2 {
+  font-size: 3.4rem;
+}
+
+.accordion {
+  width: 80%;
+}
+
+.accordion__item--question {
+  font-size: 1.5rem;
+}
+
+.accordion__item--question::after {
+  margin-left: 5px;
+}
+
+.accordion__item--answer {
+  font-size: 1.3rem;
+  line-height: 20px;
+  padding-right: 20px;
+}
+
+.attribution {
+  font-size: 1.3rem;
+}
