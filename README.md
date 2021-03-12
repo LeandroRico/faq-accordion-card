@@ -1,5 +1,7 @@
 # Frontend Mentor - FAQ Accordion Card
 
+## Preview on GitHub Pages: [click here.](https://faq-accordion-card-snowy.vercel.app/ "click here.")
+
 ![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
